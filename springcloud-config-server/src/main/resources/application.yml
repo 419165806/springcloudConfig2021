@@ -1,0 +1,8 @@
+server:
+  port: 3344
+    
+spring:  application:    name: springcloud-config-server
+  cloud:    config:      server:        git:
+          username: 419165806
+          password: admin419165806          #uri: git@github.com:419165806/springCloudConfig.git #github上面的git仓库的名字
+          uri: https://github.com/419165806/springCloudConfig.git

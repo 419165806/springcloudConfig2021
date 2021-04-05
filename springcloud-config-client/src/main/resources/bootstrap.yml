@@ -1,0 +1,13 @@
+spring:
+  cloud:
+    config:
+      #enabled: false
+      name: springcloud-config-client   #需要从github上读取的资源名称，注意没有yml后缀名
+      #profile配置是什么就取什么配置dev、test、pro
+      profile: dev
+      label: master
+      uri: http://config-3344.com:3344  #本客户端通过服务端config-server获取github的服务地址
+      #当上面的profile设置为： dev、test、 pro时按如下测试
+      #http://config-client.com:8001/config
+      #http://config-client.com:8002/config
+      #http://config-client.com:8003/config
