@@ -8,19 +8,19 @@ server:
 spring:
   profiles: dev     #开发环境
   application:
-    name: springcloud-config-client
+    name: springcloud-config-client-dev
 ---
 server: 
   port: 8002
 spring:
   profiles: test    #测试环境
   application:
-    name: springcloud-config-client
+    name: springcloud-config-client-test
 ---
 server: 
   port: 8003
 spring:
   profiles: pro     #生产环境
   application:
-    name: springcloud-config-client
+    name: springcloud-config-client-pro
 #保存为UTF-8
