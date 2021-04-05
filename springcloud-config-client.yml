@@ -1,3 +1,5 @@
+server: 
+  port: 
 spring:
   profiles:
     active:
@@ -6,21 +8,21 @@ spring:
 server: 
   poprt: 8001
 spring:
-  profiles: dev     #¿ª·¢»·¾³
+  profiles: dev     #å¼€å‘ç¯å¢ƒ
   application:
     name: xxx123
 ---
 server: 
   poprt: 8002
 spring:
-  profiles: test    #²âÊÔ»·¾³
+  profiles: test    #æµ‹è¯•ç¯å¢ƒ
   application:
     name: yyy456
 ---
 server: 
   poprt: 8003
 spring:
-  profiles: pro     #Éú²ú»·¾³
+  profiles: pro     #ç”Ÿäº§ç¯å¢ƒ
   application:
     name: zzz789
-#±£´æÎªUTF-8
+#ä¿å­˜ä¸ºUTF-8
