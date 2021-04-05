@@ -1,0 +1,26 @@
+spring:
+  profiles:
+    active:
+    - dev
+---
+server: 
+  poprt: 8001
+spring:
+  profiles: dev     #开发环境
+  application:
+    name: xxx123
+---
+server: 
+  poprt: 8002
+spring:
+  profiles: test    #测试环境
+  application:
+    name: yyy456
+---
+server: 
+  poprt: 8003
+spring:
+  profiles: pro     #生产环境
+  application:
+    name: zzz789
+#保存为UTF-8
