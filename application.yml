@@ -6,16 +6,16 @@ spring:
 spring:
   profiles: dev     #开发环境
   application:
-    name: xxx
+    name: xxx123
 ---
 spring:
   profiles: test    #测试环境
   application:
-    name: yyy
+    name: yyy456
 ---
 spring:
   profiles: pro     #生产环境
   application:
-    name: zzz
+    name: zzz789
 #保存为UTF-8
   
