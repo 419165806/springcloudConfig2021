@@ -1,5 +1,3 @@
-server: 
-  port: 
 spring:
   profiles:
     active:
@@ -10,19 +8,19 @@ server:
 spring:
   profiles: dev     #开发环境
   application:
-    name: xxx123
+    name: springcloud-config-client
 ---
 server: 
   poprt: 8002
 spring:
   profiles: test    #测试环境
   application:
-    name: yyy456
+    name: springcloud-config-client
 ---
 server: 
   poprt: 8003
 spring:
   profiles: pro     #生产环境
   application:
-    name: zzz789
+    name: springcloud-config-client
 #保存为UTF-8
